@@ -99,3 +99,28 @@ body{
     padding: 0.5rem 2rem;
     border-radius: 0.5rem;
 }
+
+
+
+/*Responsive*/
+
+@media screen and (max-width: 600px){
+#headColor{
+    display: block;
+    width: 100vw;
+}
+
+    .nav-list{
+        display: block;
+    }
+
+    .btn{
+        width: 100%;
+    }
+    
+    #getColor{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
